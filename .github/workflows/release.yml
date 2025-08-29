@@ -20,9 +20,9 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
       - name: Setup Toolchains
-        uses: moonrepo/setup-toolchain@v0
+        uses: moonrepo/setup-toolchain@827700d97fe7dd1c3030018529e43e23c377c308 # v0
         with:
           auto-install: true
       - name: Install Dependencies
